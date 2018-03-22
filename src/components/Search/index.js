@@ -15,7 +15,7 @@ class Search extends Component {
         <h1 style={{ fontWeight: 'bold' }}>{ children }</h1> 
         <hr style={{ border: '2px solid black', width: '100px' }} />
 
-        <div className="input-group">
+        <div className="input-group" style={{width: '100%' }}>
 
         <input
           className="form-control width100 searchForm" 
