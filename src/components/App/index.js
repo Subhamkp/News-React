@@ -119,7 +119,7 @@ class App extends Component {
     const list = (results && results[searchKey] && results[searchKey].hits) || [];
 
     return (
-      <div style={{width: '100%' }}>
+      <div >
 
         <Grid fluid>
           <Row>
@@ -148,7 +148,7 @@ class App extends Component {
             
               <ButtonWithLoading
                 isLoading={ isLoading }
-                className="btn btn-success"
+                className="btn btn-success col-sm-12"
                 onClick={ () => this.fetchTopStories(searchTerm, page + 1) }>
                 Load more
               </ButtonWithLoading>
