@@ -119,7 +119,7 @@ class App extends Component {
     const list = (results && results[searchKey] && results[searchKey].hits) || [];
 
     return (
-      <div>
+      <div style={{width: '100%' }}>
 
         <Grid fluid>
           <Row>
