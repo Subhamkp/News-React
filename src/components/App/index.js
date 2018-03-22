@@ -123,7 +123,7 @@ class App extends Component {
 
         <Grid fluid>
           <Row>
-            <div className="jumbotron text-center">
+            <div className="jumbotron col-sm-12 text-center">
 
             <Search
               onChange={ this.searchValue } 
@@ -143,12 +143,12 @@ class App extends Component {
             />
           
 
-          <div className="text-center alert">
+          <div className="text-center alert col-sm-12">
 
             
               <ButtonWithLoading
                 isLoading={ isLoading }
-                className="btn btn-success col-sm-12"
+                className="btn btn-success "
                 onClick={ () => this.fetchTopStories(searchTerm, page + 1) }>
                 Load more
               </ButtonWithLoading>
